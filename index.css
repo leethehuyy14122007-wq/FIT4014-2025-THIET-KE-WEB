@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px; /* khoảng cách giữa các box */
+  gap: 20px;
 }
 
 .box {
@@ -22,4 +22,5 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 14px;
+
 }
