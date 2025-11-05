@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Thế Huy,portfolio, lập trình viên, trang cá nhân, portfolio cá nhân, website cá nhân"
+    />
+    <meta
+      name="description"
+      content="Chào mừng bạn đến với Portfolio của Huy - Sinh viên CNTT Đại học Đại Nam."
+    />
+    <!-- CSS Tùy chỉnh -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link
+      id="favicon"
+      rel="shortcut icon"
+      href="./assets/images/thehuy1.jpg"
+      type="image/x-png"
+    />
+    <title>Portfolio | Thế Huy</title>
+  </head>
+  <body oncontextmenu="return false">
+    <!-- header bắt đầu -->
+    <header>
+      <a href="/" class="logo"><i class="fab fa-node-js"></i> Huy
+
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a class="active" href="#home">Trang chủ</a></li>
+          <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#skills">Kỹ năng</a></li>
+          <li><a href="#education">Học vấn</a></li>
+          <li><a href="#work">Dự án</a></li>
+          <li><a href="#experience">Kinh nghiệm</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header kết thúc -->
+
+    <!-- phần trang chủ -->
+    <section class="home" id="home">
+      <div id="particles-js"></div>
+
+      <div class="content">
+        <h2>
+          Xin chào,<br />
+          Tôi là THẾ <span>HUY</span>
+        </h2>
+        <p>Tôi là <span class="typing-text"></span></p>
+        <a href="#about" class="btn"
+          ><span>Về tôi</span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <div class="socials">
+          <ul class="social-icons">
+            <li>
+              <a
+                class="linkedin"
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="github"
+                aria-label="GitHub"
+                href="https://github.com"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a class="instagram" aria-label="Instagram" href="#"
+                ><i class="fab fa-instagram" target="_blank"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          draggable="false"
+          class="tilt"
+          src="./assets/images/thehuy1.jpg"
+          alt="width450px"
+        />
+      </div>
+    </section>
+    <!-- kết thúc trang chủ -->
+
+    <!-- phần giới thiệu -->
+    <section class="about" id="about">
+      <h2 class="heading">
+        <i class="fas fa-user-alt"></i> Giới thiệu <span>bản thân</span>
+      </h2>
+
+      <div class="row">
+        <div class="image">
+          <img
+            draggable="false"
+            class="tilt"
+            src="./assets/images/thehuy2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Tôi là</h3>
+          <span class="tag">Sinh viên năm nhất</span>
+
+          <p>
+            Tôi là sinh viên năm nhất của Trường Đại học Đại Nam, chuyên ngành
+            Công nghệ thông tin – khóa K19.
+          </p>
+
+          <div class="box-container">
+            <div class="box">
+              <p><span> Email: </span> leethehuyy14122007@gmail.com</p>
+              <p><span> Địa chỉ: </span> Tuyên Quang, Việt Nam</p>
+            </div>
+          </div>
+
+          <div class="resumebtn">
+            <a
+              href="https://drive.google.com/file/d/1rZiXl562q7aVyk1kJ2nO85YBAq8ixTiw/view"
+              target="_blank"
+              class="btn"
+              ><span>Xem CV</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- kết thúc giới thiệu -->
+
+    <!-- kỹ năng -->
+    <section class="skills" id="skills">
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> Kỹ năng & <span>Khả năng</span>
+      </h2>
+      <div class="container">
+        <div class="row" id="skillsContainer"></div>
+      </div>
+    </section>
+    <!-- kết thúc kỹ năng -->
+
+    <!-- học vấn -->
+    <section class="education" id="education">
+      <h1 class="heading">
+        <i class="fas fa-graduation-cap"></i> Quá trình <span>Học tập</span>
+      </h1>
+
+      <p class="qoute">
+        Giáo dục không chỉ là học thuộc lòng, mà là học cách tư duy.
+      </p>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/dainam.webp"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Cử nhân Công nghệ Thông tin</h3>
+            <p>Trường Đại học Đại Nam</p>
+            <h4>2024 - nay | Đang theo học</h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/truong.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Trung học phổ thông</h3>
+            <p>Trường THPT Kim Xuyên</p>
+            <h4>2021 - 2024 | Đã hoàn thành</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- kết thúc học vấn -->
+
+    <!-- dự án -->
+    <section class="work" id="work">
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> Dự án <span>đã thực hiện</span>
+      </h2>
+      <div class="box-container"></div>
+      <div class="viewall">
+        <a href="/projects" class="btn"
+          ><span>Xem tất cả</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+    <!-- kết thúc dự án -->
+
+    <!-- kinh nghiệm -->
+    <section class="experience" id="experience">
+      <h2 class="heading"><i class="fas fa-briefcase"></i> Kinh nghiệm</h2>
+
+      <div class="timeline">
+        <div class="container right">
+          <div class="content">
+            <div class="tag">
+              <h2>Tự học</h2>
+            </div>
+            <div class="desc">
+              <h3>Lập trình viên Web</h3>
+              <p>2025 - nay</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="morebtn">
+        <a href="/experience" class="btn"
+          ><span>Xem thêm</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+    <!-- kết thúc kinh nghiệm -->
+
+    <!-- liên hệ -->
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        <i class="fas fa-headset"></i> Liên hệ <span>với tôi</span>
+      </h2>
+
+      <div class="container">
+        <div class="content">
+          <div class="image-box">
+            <img draggable="false" src="./assets/images/contact1.png" alt="" />
+          </div>
+          <form id="contact-form">
+            <div class="form-group">
+              <div class="field">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Tên của bạn"
+                  required
+                />
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="field">
+                <input type="text" name="email" placeholder="Email" required />
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="field">
+                <input type="text" name="phone" placeholder="Số điện thoại" />
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="message">
+                <textarea
+                  placeholder="Tin nhắn"
+                  name="message"
+                  required
+                ></textarea>
+                <i class="fas fa-comment-dots"></i>
+              </div>
+            </div>
+            <div class="button-area">
+              <button type="submit">
+                Gửi <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- kết thúc liên hệ -->
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Portfolio của Huy</h3>
+          <p>
+            Cảm ơn bạn đã ghé thăm trang portfolio cá nhân của tôi. Hãy kết nối
+            cùng tôi qua các mạng xã hội nhé 🚀
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Liên kết nhanh</h3>
+          <a href="#home"
+            ><i class="fas fa-chevron-circle-right"></i> Trang chủ</a
+          >
+          <a href="#about"
+            ><i class="fas fa-chevron-circle-right"></i> Giới thiệu</a
+          >
+          <a href="#skills"
+            ><i class="fas fa-chevron-circle-right"></i> Kỹ năng</a
+          >
+          <a href="#education"
+            ><i class="fas fa-chevron-circle-right"></i> Học vấn</a
+          >
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> Dự án</a>
+          <a href="#experience"
+            ><i class="fas fa-chevron-circle-right"></i> Kinh nghiệm</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Thông tin liên hệ</h3>
+          <p><i class="fas fa-envelope"></i> leethehuyy14122007.com</p>
+          <p><i class="fas fa-map-marked-alt"></i> Tuyên Quang, Việt Nam</p>
+          <div class="share">
+            <a
+              href="https://github.com"
+              class="fab fa-github"
+              aria-label="GitHub"
+              target="_blank"
+            ></a>
+            <a
+              href="mailto:dath3226@gmail.com"
+              class="fas fa-envelope"
+              aria-label="Mail"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        Thiết kế với <i class="fa fa-heart pulse"></i> bởi
+        <a href="#">Thế Huy</a>
+      </h1>
+    </section>
+
+    <a
+      href="#home"
+      aria-label="ScrollTop"
+      class="fas fa-angle-up"
+      id="scroll-top"
+    ></a>
+
+    <!-- Các thư viện JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
